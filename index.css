@@ -1,7 +1,5 @@
 html {
-    background-image: 
-        linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ),
-        url("mainpage.jpg"); 
+    background-image: linear-gradient(to bottom right, darkgreen, lightgreen ); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,7 +60,10 @@ h2 {
     font-size: 64px;
     color: white;
     text-align: left;
-    padding: 24px;
+    padding-left: 24px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .outline {
@@ -81,13 +82,24 @@ h2 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 30px;
     color: white;
     text-align: left;
-    padding: 12px;
+    padding-left: 24px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 a {
     text-decoration: underline;
     color: white;
+}
+
+.workscited {
+    margin: auto;
+    width: 8.5in;
+    height: 11in;
+    display: block;
+    border: none;
 }
