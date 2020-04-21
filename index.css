@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom right, darkgreen, lightgreen ); 
+    background-image: linear-gradient(to bottom right, darkgreen, limegreen ); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,6 +91,16 @@ p {
     padding-bottom: 12px;
 }
 
+ol, ul {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    padding-left: 56px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 a {
     text-decoration: underline;
     color: white;
@@ -102,4 +112,27 @@ a {
     height: 11in;
     display: block;
     border: none;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dds {
+    background-color: navy;
+}
+
+.doc {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
